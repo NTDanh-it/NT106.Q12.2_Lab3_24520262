@@ -1,0 +1,16 @@
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\bin\Debug\net8.0-windows\LAB3_BAI2.exe
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\bin\Debug\net8.0-windows\LAB3_BAI2.deps.json
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\bin\Debug\net8.0-windows\LAB3_BAI2.runtimeconfig.json
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\bin\Debug\net8.0-windows\LAB3_BAI2.dll
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\bin\Debug\net8.0-windows\LAB3_BAI2.pdb
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.Form1.resources
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.csproj.GenerateResource.cache
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.AssemblyInfoInputs.cache
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.AssemblyInfo.cs
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.csproj.CoreCompileInputs.cache
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.dll
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\refint\LAB3_BAI2.dll
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.pdb
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\LAB3_BAI2.genruntimeconfig.cache
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB03_24520262\LAB3_BAI2\obj\Debug\net8.0-windows\ref\LAB3_BAI2.dll
