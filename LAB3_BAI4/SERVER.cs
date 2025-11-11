@@ -51,8 +51,6 @@ namespace LAB3_BAI4
                 _filePath = Path.Combine(Application.StartupPath, "INPUT.txt");
             }
         }
-
-        // 1. Xử lý nút START
         private void button1_Click(object sender, EventArgs e)
         {
             if (_isRunning) return;

@@ -120,7 +120,7 @@ namespace LAB3_BAI5
                 serverSocket.Bind(new IPEndPoint(IPAddress.Any, 8080));
                 serverSocket.Listen(5);
                 serverSocket.BeginAccept(new AsyncCallback(AcceptCallback), null);
-                AppendLog("Server bắt đầu lắng nghe tại cổng 9999...");
+                AppendLog("Server bắt đầu lắng nghe tại cổng 8080...");
             }
             catch (Exception ex)
             {

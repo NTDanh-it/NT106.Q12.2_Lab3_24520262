@@ -1,6 +1,6 @@
 ﻿namespace LAB3_BAI2
 {
-    partial class Form1
+    partial class Telnetlistener
     {
         /// <summary>
         ///  Required designer variable.
@@ -54,7 +54,7 @@
             richTextBox1.TabIndex = 9;
             richTextBox1.Text = "";
             // 
-            // Form1
+            // Telnetlistener
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -62,7 +62,7 @@
             ClientSize = new Size(800, 612);
             Controls.Add(richTextBox1);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "Telnetlistener";
             Text = "BAI2 - Write a TCP Telnet Listener Program using Socket";
             ResumeLayout(false);
         }

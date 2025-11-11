@@ -7,16 +7,15 @@ using System.Windows.Forms;
 
 namespace LAB3_BAI2
 {
-    public partial class Form1 : Form
+    public partial class Telnetlistener : Form
     {
-        // Khai báo một control để hiển thị log (Giả sử bạn có RichTextBox tên là richTextBox1)
         // Delegate để đảm bảo an toàn khi gọi hàm từ các Thread khác
         private delegate void SafeCallDelegate(string text);
 
         // Khai báo listenerSocket ở cấp độ class để có thể dừng nó nếu cần
         private Socket listenerSocket;
 
-        public Form1()
+        public Telnetlistener()
         {
             InitializeComponent();
         }
@@ -125,20 +124,15 @@ namespace LAB3_BAI2
         // Sự kiện Click cho nút "Listen" (Giả sử tên là button1)
         private void button1_Click(object sender, EventArgs e)
         {
-            // Loại bỏ CheckForIllegalCrossThreadCalls = false;
-            // Thay vào đó, chúng ta dựa vào phương thức Invoke/InvokeRequired (AppendTextSafe)
-
             // Khởi tạo và chạy luồng Server
             Thread serverThread = new Thread(new ThreadStart(StartListenerThread));
             serverThread.IsBackground = true; // Cho phép thread nền tự dừng khi ứng dụng đóng
             serverThread.Start();
 
-
             // vô hiệu hóa nút listen tránh lỗi
             button1.Enabled = false;
 
         }
-
         // Sự kiện FormClosing để đảm bảo đóng Listener khi ứng dụng tắt
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {

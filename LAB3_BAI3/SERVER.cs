@@ -91,23 +91,22 @@ namespace LAB3_BAI3
                             string text = Encoding.UTF8.GetString(recvBuffer, 0, bytesReceived);
                             AppendTextSafe($"Client: {text}\n");
                         }
-                        catch (SocketException sex_inner)
+                        catch (SocketException sx_inner)
                         {
                             // Lỗi này xảy ra nếu client bị ngắt đột ngột
-                            AppendTextSafe($"Lỗi kết nối client: {sex_inner.Message}\n");
+                            AppendTextSafe($"Lỗi kết nối client: {sx_inner.Message}\n");
                             clientSocket.Close();
                             break;
                         }
                     }
                 }
             }
-            // --- CẬP NHẬT QUAN TRỌNG Ở ĐÂY ---
-            catch (SocketException sex)
+            catch (SocketException sx)
             {
                 // Lỗi 10004 (Interrupted) là mã lỗi Windows trả về khi
                 // chúng ta gọi .Close() từ luồng khác (nút Reset) trong khi luồng này
                 // đang bị chặn tại .Accept(). Đây là hành vi mong muốn.
-                if (sex.SocketErrorCode == SocketError.Interrupted)
+                if (sx.SocketErrorCode == SocketError.Interrupted)
                 {
                     // Thay vì báo lỗi, chúng ta dọn dẹp log và thông báo dừng
                     ClearRichTextBoxSafe();
@@ -116,12 +115,11 @@ namespace LAB3_BAI3
                 else
                 {
                     // Nếu là một lỗi SocketException khác, thì đó mới là lỗi thật
-                    AppendTextSafe($"Lỗi Socket Server: {sex.Message}\n");
+                    AppendTextSafe($"Lỗi Socket Server: {sx.Message}\n");
                 }
             }
             catch (Exception ex)
             {
-                // Bắt các lỗi chung khác (ví dụ: lỗi Bind)
                 AppendTextSafe($"Lỗi Server không xác định: {ex.Message}\n");
             }
             finally
@@ -135,16 +133,12 @@ namespace LAB3_BAI3
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            // Khởi tạo và chạy luồng Server
             Thread serverThread = new Thread(new ThreadStart(StartListenerThread));
             serverThread.IsBackground = true;
             serverThread.Start();
 
             button1.Enabled = false;
         }
-
-
-        // Sự kiện FormClosing để đảm bảo đóng Listener khi ứng dụng tắt
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (listenerSocket != null)

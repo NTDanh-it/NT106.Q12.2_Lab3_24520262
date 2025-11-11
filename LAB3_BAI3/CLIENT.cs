@@ -88,7 +88,7 @@ namespace LAB3_BAI3
         {
             try
             {
-                // 5. Đóng luồng và socket
+                // Đóng luồng và socket
                 if (ns != null)
                 {
                     ns.Close();

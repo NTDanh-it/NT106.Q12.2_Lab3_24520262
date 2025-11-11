@@ -119,7 +119,6 @@ namespace LAB3_BAI4
             textBox1.Text = m.Name;
             textBox2.Text = m.Price.ToString("N0"); // Định dạng số có dấu phẩy
             textBox3.Text = m.TicketsSold.ToString();
-            label13.Text = _currentIndex.ToString(); // Hiển thị chỉ số phim hiện tại
 
             // Cập nhật trạng thái ghế (CheckBox)
             // Duyệt tất cả control trên Form để tìm các CheckBox ghế (A1, A2...)
