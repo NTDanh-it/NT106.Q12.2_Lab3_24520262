@@ -1,11 +1,11 @@
 Đào, phở và piano
 45000
-4
-A2, B4, C2, B2
+6
+A2, B4, C2, B2, C5, B5
 Mai
 100000
-2
-A3, B3
+6
+A3, B3, C3, C2, B2, A2
 Gặp lại chị bầu
 70000
 2

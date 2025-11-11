@@ -51,7 +51,6 @@
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
-            label13 = new Label();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
@@ -62,7 +61,6 @@
             button2 = new Button();
             button1 = new Button();
             button4 = new Button();
-            button5 = new Button();
             SuspendLayout();
             // 
             // C5
@@ -341,18 +339,6 @@
             label5.TabIndex = 37;
             label5.Text = "1";
             // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.BackColor = Color.FloralWhite;
-            label13.Font = new Font("Cascadia Code SemiBold", 10.8F, FontStyle.Bold);
-            label13.ForeColor = Color.DarkRed;
-            label13.Location = new Point(242, 269);
-            label13.Name = "label13";
-            label13.Size = new Size(21, 24);
-            label13.TabIndex = 70;
-            label13.Text = "0";
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -468,28 +454,13 @@
             button4.Text = "Đặt vé";
             button4.UseVisualStyleBackColor = false;
             // 
-            // button5
-            // 
-            button5.BackColor = SystemColors.Control;
-            button5.Font = new Font("Cascadia Code SemiBold", 10.8F, FontStyle.Bold);
-            button5.ForeColor = Color.DarkRed;
-            button5.Location = new Point(57, 51);
-            button5.Name = "button5";
-            button5.Size = new Size(150, 40);
-            button5.TabIndex = 72;
-            button5.Text = "Reload";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
-            // 
             // CLIENT
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FloralWhite;
             ClientSize = new Size(869, 381);
-            Controls.Add(button5);
             Controls.Add(button4);
-            Controls.Add(label13);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -553,7 +524,6 @@
         private Label label7;
         private Label label6;
         private Label label5;
-        private Label label13;
         private Label label3;
         private Label label2;
         private Label label1;
@@ -564,6 +534,5 @@
         private Button button2;
         private Button button1;
         private Button button4;
-        private Button button5;
     }
 }

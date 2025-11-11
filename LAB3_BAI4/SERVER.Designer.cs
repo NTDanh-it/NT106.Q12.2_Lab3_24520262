@@ -30,7 +30,6 @@
         {
             richTextBox1 = new RichTextBox();
             button1 = new Button();
-            button2 = new Button();
             richTextBox2 = new RichTextBox();
             label1 = new Label();
             SuspendLayout();
@@ -56,17 +55,6 @@
             button1.Text = "START";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Font = new Font("Cascadia Code", 10.8F);
-            button2.ForeColor = Color.DarkRed;
-            button2.Location = new Point(12, 21);
-            button2.Name = "button2";
-            button2.Size = new Size(192, 50);
-            button2.TabIndex = 2;
-            button2.Text = "UPDATE FILE";
-            button2.UseVisualStyleBackColor = true;
             // 
             // richTextBox2
             // 
@@ -97,7 +85,6 @@
             ClientSize = new Size(923, 480);
             Controls.Add(label1);
             Controls.Add(richTextBox2);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(richTextBox1);
             Name = "SERVER";
@@ -110,7 +97,6 @@
 
         private RichTextBox richTextBox1;
         private Button button1;
-        private Button button2;
         private RichTextBox richTextBox2;
         private Label label1;
     }

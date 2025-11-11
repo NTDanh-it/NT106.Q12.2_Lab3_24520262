@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mUZKOBFE/as=",
+  "dgSpecHash": "JS0gf0YqH9s=",
   "success": true,
   "projectFilePath": "C:\\Users\\metan\\Documents\\Visual Studio 2022\\NT106.Q12.2_Lab3_24520262\\LAB3_BAI5\\LAB3_BAI5.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\metan\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\metan\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -16,3 +16,4 @@ C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB3_BAI4\
 C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB3_BAI4\obj\Debug\net8.0-windows\LAB3_BAI4.pdb
 C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB3_BAI4\obj\Debug\net8.0-windows\LAB3_BAI4.genruntimeconfig.cache
 C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB3_BAI4\obj\Debug\net8.0-windows\ref\LAB3_BAI4.dll
+C:\Users\metan\Documents\Visual Studio 2022\NT106.Q12.2_Lab3_24520262\LAB3_BAI4\obj\Debug\net8.0-windows\LAB3_BAI4.sourcelink.json
